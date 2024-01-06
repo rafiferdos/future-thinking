@@ -9,7 +9,6 @@
   margin: auto;
 }
 header {
-
   min-height: 100vh;
   background-image: url("../assets/images/banner3.png");
   background-position: center;
@@ -25,9 +24,11 @@ header {
 }
 .banner-heading-text {
   font-size: 65px;
+  font-weight: 700;
 }
 .normal-para {
   font-size: 16px;
+  font-weight: 300;
 }
 .banner-area-contents {
   text-align: right;
@@ -44,4 +45,90 @@ header {
 }
 .bold {
   font-weight: bold;
+}
+.previous-year-failure {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.previous-year-failure-contents {
+  width: 60%;
+  padding-right: 20%;
+  padding-left: 20%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.previous-year-texts h2 {
+  font-size: 40px;
+  font-weight: 700;
+
+}
+.previous-year-failure-contents img {
+  display: block;
+}
+.flex-gap {
+  content: ' ';
+  margin: 0 80px;
+}
+.failure-list ul {
+  list-style: none;
+  padding-left: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 2;
+}
+.failure-list ul li span{
+  color: green;
+}
+
+.section-gap {
+  margin: 150px 0 50px;
+}
+.my-plan-heading {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.showcase {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.showcase h3 {
+  margin: 30px 0;
+  font-weight: 700;
+  font-size: 30px;
+}
+.showcase p {
+  font-size: 25px;
+  font-weight: 500;
+  color: #737272;
+}
+.contact-section-gap {
+  margin: 300px 0;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.img1{
+  position: absolute;
+}
+.img2{
+  position: relative;
+  left: 380px
+}
+.overlay-contents {
+  position: relative;
+  right: 700px;
+  bottom: 20px;
+  color: white;
+  font-size: 40px;
 }
