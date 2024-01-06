@@ -132,3 +132,47 @@ header {
   color: white;
   font-size: 40px;
 }
+footer {
+  background-color: #151414;
+  color: white;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 50px 20%;
+}
+.left {
+  width: 40%;
+  justify-content: end !important;
+}
+.right {
+  width: 40%;
+}
+footer h1 {
+  font-size: 45px;
+}
+footer h3 {
+  font-size: 25px;
+}
+footer img {
+  padding-right: 10px;
+}
+footer input[type = email]{
+  display: block;
+  padding: 25px 50px;
+  background-color: #151414;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.sub-button {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  padding: 20px 35px;
+  background-color: #005FAC;
+  border: none;
+  border-radius: 5px;
+}
+button, input[type = button] {
+  cursor: pointer;
+}
